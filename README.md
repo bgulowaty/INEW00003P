@@ -28,7 +28,7 @@ Program powinien informować (np. za pomocą wyjścia konsoli) o tym, w jakim st
 
 | | Data | Opis
 | ------------ | ------------ | -------------
-| :white_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
+| :heavy_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
 | :white_check_mark: | 02.04.2020 | Opcjonalne zadanie, które wrzucę tutaj (niedługo).
 | :white_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia). Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
 | :white_check_mark: | (TBA) | Szczegółowy opis systemu (8. zajęcia).
