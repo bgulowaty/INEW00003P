@@ -2,6 +2,10 @@
 
 ## Aktualizacje
 - **01.03.2020** | Podstawowe informacje 
+- **07.03.2020** | Dodano przykładową aplikację ([`examples/index`](examples/index)) oraz sekcję materiały.
+Zachęcam do zapoznania się z kodem. Zostało tam wykorzystanch kilka użytecznych technik programowania obiektowego 
+i właściwości Javy. Proszę nie kopiować projektu, ale spróbować dogłębnie zrozumieć potrzebę 
+zastosowanie konkretnych interfejsów i ogólny przepływ kodu. 
 
 ## Cel projektu
 Stworzenie prostej symulacji agentowej z wykorzystaniem technik projektowania
@@ -100,8 +104,16 @@ Poza kamieniami milowymi spotykamy się w ramach konsultacji. Zachęcam do zjawi
 - Dokumentacja koniecznie w PDF
 - Każda grupa ma Lidera, przy wysyłaniu mejli proszę dołączać drugą osobę w `cc` 
 
-## Inne
+## Materiały
+
+### Pierwsze zajęcia
 - [Prezentacja z pierwszych zajęć (+ kod w LaTeXu)](https://www.overleaf.com/read/wzbrmyyvfdmc) (wiedza z zakresu składania tekstu w LaTeXu zaoszczędzi wiele nerwów przy pisaniu pracy inżynierskiej)
 - Najpowszechniej używane środowisko do Javy - [Intellij IDEA](https://www.jetbrains.com/student/)
 - Do diagramów polecam [PlantUML](https://plantuml.com/) lub [Visual Paradigm](https://www.visual-paradigm.com/)
 - Proszę czasami zaglądać na tą stronę, postaram się powrzucać trochę przykładów
+ 
+### Programowanie
+- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - "must read" dla osób chcących pisać dobry kod. Nie wymagam przeczytania całej książki, proszę przynajmniej zapoznać się z podsumowaniami (poniżej).
+- [Podsumowanie Clean Code #1](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) 
+- [Podsumowanie Clean Code #2](http://www.inf.fu-berlin.de/inst/ag-se/teaching/K-CCD-2014/Clean-Code-summary.pdf)
+- [Dlaczego lepiej jest stosować kompozycję, niż dziedziczenie](https://www.youtube.com/watch?v=wfMtDGfHWpA)

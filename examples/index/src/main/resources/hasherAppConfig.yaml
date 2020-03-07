@@ -1,0 +1,3 @@
+defaultAlgorithm: MD5
+studentIndexPattern: "[0-9]{6}"
+salt: someRandomSalt

@@ -1,0 +1,3 @@
+defaultAlgorithm: SHA256_GUAVA
+studentIndexPattern: "[0-9]{6}"
+salt: someRandomSalt
