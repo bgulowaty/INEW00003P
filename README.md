@@ -6,6 +6,36 @@
 Zachęcam do zapoznania się z kodem. Zostało tam wykorzystanch kilka użytecznych technik programowania obiektowego 
 i właściwości Javy. Proszę nie kopiować projektu, ale spróbować dogłębnie zrozumieć potrzebę 
 zastosowanie konkretnych interfejsów i ogólny przepływ kodu. 
+- **08.03.2020** | Dodano zgłoszone grupy
+
+## Grupy
+
+Proszę sprawdzić i w razie błędu mnie poinformować.
+
+| hex(sha256(indeks))[:10] | temat symulacji | 
+|--------------------------|--------| 
+| 109aca0eb0, 10c0ab27d |        | 
+| 6a56afc3b8, b503cd3e20 | szachy | 
+| d6ee3d7bbb, 1bae221c16 |        | 
+| b2f8d6c769, eeb47fdff5 | wirus  | 
+| a89269eb1e, d3a3e6d07f |        | 
+| 8830cbfb72, 94f8f513e4 |        | 
+| fd462c3af6, 14d9355a25 |        | 
+| 3ff598b1a9             |        | 
+| 5368816403, f229286545 |        | 
+| 198bc46d31, d3312c6248 |        | 
+| 27b9f19ab7             |        | 
+| 48745f1e83, f1cb147b76 |        | 
+| 81737a5de6, 6a869198cb |        | 
+| 873008d26f, 6159e817e3 |        | 
+| 293d1e9078, 10ac38a456 |        | 
+| 04a12548e9             |        | 
+| 1770065c18, 4ec798a356 |        | 
+| 08a1f76d44, 6b82b008b6 |        | 
+
+Osoby bez grupy: eaef94617a, 803e59f253, 2fc52d3924, 9c4f2e2c0a
+
+
 
 ## Cel projektu
 Stworzenie prostej symulacji agentowej z wykorzystaniem technik projektowania
