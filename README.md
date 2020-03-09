@@ -21,7 +21,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | a89269eb1e, d3a3e6d07f |        | 
 | 8830cbfb72, 94f8f513e4 |        | 
 | fd462c3af6, 14d9355a25 |        | 
-| 3ff598b1a9             |        | 
+| 3ff598b1a9, eaef94617a |        | 
 | 5368816403, f229286545 |        | 
 | 198bc46d31, d3312c6248 |        | 
 | 27b9f19ab7             |        | 
@@ -33,7 +33,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 1770065c18, 4ec798a356 |        | 
 | 08a1f76d44, 6b82b008b6 |        | 
 
-Osoby bez grupy: eaef94617a, 803e59f253, 2fc52d3924, 9c4f2e2c0a
+Osoby bez grupy: 803e59f253, 2fc52d3924, 9c4f2e2c0a
 
 
 
