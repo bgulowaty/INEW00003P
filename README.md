@@ -1,12 +1,22 @@
 # Programowanie Obiektowe (INEW00003P)
 
-## Aktualizacje
-- **01.03.2020** | Podstawowe informacje 
-- **07.03.2020** | Dodano przykładową aplikację ([`examples/index`](examples/index)) oraz sekcję materiały.
-Zachęcam do zapoznania się z kodem. Zostało tam wykorzystanch kilka użytecznych technik programowania obiektowego 
-i właściwości Javy. Proszę nie kopiować projektu, ale spróbować dogłębnie zrozumieć potrzebę 
-zastosowanie konkretnych interfejsów i ogólny przepływ kodu. 
+## Aktualności
+- **19.03.2020** | Dodano zadanie dodatkowe. 
+
+W związku z `COVID-19` oddawanie etapów projektów będzie odbywało się zdalnie. 
+Proponuję pozostać przy mejlu, gdyby ktoś jednak potrzebował skontaktować się ze mną w czasie rzeczywistym, to proszę napisać wiadomość.
+
+Zachęcam do przesyłania mi kodu, który Państwo napiszą (chętnie przeprowadzę [code review](https://en.wikipedia.org/wiki/Code_review) 
+oraz skomentuję i pomogę rozwiązać ewentualne problemy, przy czym naturalnie nie będzie to miało jakiegokolwiek negatywnego wpływu na ocenę) oraz kontaktowania się, gdyby któreś z zagadnień przedstawianych na wykładzie/projekcie było niejasne.
+
+ 
 - **08.03.2020** | Dodano zgłoszone grupy
+- **07.03.2020** | Dodano przykładową aplikację ([`examples/index`](examples/index)) oraz sekcję materiały.
+  Zachęcam do zapoznania się z kodem. Zostało tam wykorzystanch kilka użytecznych technik programowania obiektowego 
+  i właściwości Javy. Proszę nie kopiować projektu, ale spróbować dogłębnie zrozumieć potrzebę 
+  zastosowanie konkretnych interfejsów i ogólny przepływ kodu. 
+- **01.03.2020** | Podstawowe informacje 
+
 
 ## Grupy
 
@@ -14,26 +24,27 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 
 | hex(sha256(indeks))[:10] | temat symulacji | 
 |--------------------------|--------| 
-| 109aca0eb0, 10c0ab27d |        | 
-| 6a56afc3b8, b503cd3e20 | szachy | 
-| d6ee3d7bbb, 1bae221c16 |        | 
-| b2f8d6c769, eeb47fdff5 | wirus  | 
-| a89269eb1e, d3a3e6d07f |        | 
-| 8830cbfb72, 94f8f513e4 |        | 
-| fd462c3af6, 14d9355a25 |        | 
-| 3ff598b1a9, eaef94617a |        | 
-| 5368816403, f229286545 |        | 
-| 198bc46d31, d3312c6248 |        | 
-| 27b9f19ab7             |        | 
-| 48745f1e83, f1cb147b76 |        | 
-| 81737a5de6, 6a869198cb |        | 
-| 873008d26f, 6159e817e3 |        | 
-| 293d1e9078, 10ac38a456 |        | 
-| 04a12548e9             |        | 
-| 1770065c18, 4ec798a356 |        | 
-| 08a1f76d44, 6b82b008b6 |        | 
+| 109aca0eb0, 10c0ab27de |                                       |
+| 6a56afc3b8, b503cd3e20 | szachy                                |
+| d6ee3d7bbb, 1bae221c16 |                                       |
+| b2f8d6c769, eeb47fdff5 | wirus                                 |
+| a89269eb1e, d3a3e6d07f |                                       |
+| 8830cbfb72, 94f8f513e4 |                                       |
+| fd462c3af6, 14d9355a25 |                                       |
+| 3ff598b1a9, eaef94617a |                                       |
+| 5368816403, f229286545 |                                       |
+| d3312c6248, 198bc46d31 |                                       |
+| 27b9f19ab7             |                                       |
+| f1cb147b76, 48745f1e83 | Symulacja meczów futsal              |
+| 6a869198cb, 81737a5de6 |                                       |
+| 873008d26f, 6159e817e3 |                                       |
+| 293d1e9078, 10ac38a456 |                                       |
+| 04a12548e9             |                                       |
+| 4ec798a356, 1770065c18 |                                       |
+| 08a1f76d44, 6b82b008b6 |                                       |
+| 9c4f2e2c0a, 803e59f253 | terrarium z różnymi typami zwierząt |
 
-Osoby bez grupy: 803e59f253, 2fc52d3924, 9c4f2e2c0a
+Osoby bez grupy: 2fc52d3924
 
 
 
@@ -59,7 +70,7 @@ Program powinien informować (np. za pomocą wyjścia konsoli) o tym, w jakim st
 | | Data | Opis
 | ------------ | ------------ | -------------
 | :heavy_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
-| :white_check_mark: | 02.04.2020 | Opcjonalne zadanie, które wrzucę tutaj (niedługo).
+| :white_check_mark: | (TBA) | Opcjonalne zadanie, które wrzucę tutaj (niedługo).
 | :white_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia). Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
 | :white_check_mark: | (TBA) | Szczegółowy opis systemu (8. zajęcia).
 | :white_check_mark: | (TBA) | Opis logiki symulacji (10. zajęcia).
@@ -147,3 +158,12 @@ Poza kamieniami milowymi spotykamy się w ramach konsultacji. Zachęcam do zjawi
 - [Podsumowanie Clean Code #1](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) 
 - [Podsumowanie Clean Code #2](http://www.inf.fu-berlin.de/inst/ag-se/teaching/K-CCD-2014/Clean-Code-summary.pdf)
 - [Dlaczego lepiej jest stosować kompozycję, niż dziedziczenie](https://www.youtube.com/watch?v=wfMtDGfHWpA)
+
+### Zadanie dodatkowe
+Zachęcam do wykonania któregoś z podpunktów zadania dodatkowego - 
+można przesyłać je w formie Pull requesta do tego repo lub na mejla.
+
+W [przykładowym projekcie](examples/index): 
+- Stworzyć testy jednostkowe do jednej z wybranch klas
+- Zaimplementować [solenie](https://crypto.stackexchange.com/questions/1776/can-you-help-me-understand-what-a-cryptographic-salt-is) hashowanego tekstu
+- W `build.gradle`: dodać możliwość zbudowania [uber-jara](https://stackoverflow.com/questions/11947037/what-is-an-uber-jar) (można naturalnie korzystać z gotowych pluginów)
