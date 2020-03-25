@@ -1,6 +1,7 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **25.03.2020** | Dodano dodatkowe materiały i sekcję [Uwagi](#uwagi).
 - **19.03.2020** | Dodano zadanie dodatkowe. 
 
 W związku z `COVID-19` oddawanie etapów projektów będzie odbywało się zdalnie. 
@@ -32,10 +33,10 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 8830cbfb72, 94f8f513e4 |                                       |
 | fd462c3af6, 14d9355a25 |                                       |
 | 3ff598b1a9, eaef94617a |                                       |
-| 5368816403, f229286545 |                                       |
+| 5368816403, f229286545 | symulacja ogrodu                      |
 | d3312c6248, 198bc46d31 |                                       |
 | 27b9f19ab7             |                                       |
-| f1cb147b76, 48745f1e83 | Symulacja meczów futsal              |
+| f1cb147b76, 48745f1e83 | symulacja meczów futsal               |
 | 6a869198cb, 81737a5de6 |                                       |
 | 873008d26f, 6159e817e3 |                                       |
 | 293d1e9078, 10ac38a456 |                                       |
@@ -45,8 +46,6 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 9c4f2e2c0a, 803e59f253 | terrarium z różnymi typami zwierząt |
 
 Osoby bez grupy: 2fc52d3924
-
-
 
 ## Cel projektu
 Stworzenie prostej symulacji agentowej z wykorzystaniem technik projektowania
@@ -58,6 +57,23 @@ Model ma być wprawiany w ruch wykorzystując generowane losowo zdarzenia, któr
 zmuszają obiekty do rozmaitych działań.
 
 Program powinien informować (np. za pomocą wyjścia konsoli) o tym, w jakim stanie się znajduje i jak przebiega symulacja.
+
+### Uwagi
+#### Projektowe
+- Interfejs (np. graficzny) nie jest wymagany - w zupełności wystarczające jest loggowanie informacji o stanie i przebiegu informacji do konsoli.
+Można do tego wykorzystać po prostu `System.out.print` lub lepiej - [logger](https://www.baeldung.com/java-system-out-println-vs-loggers).
+Jeżeli jednak zdecydują się Państwo na zaimplementowanie interfejsu (z perspektywy nabytych umiejętności, najlepiej wybrać [interfejs HTTP](https://www.baeldung.com/building-a-restful-web-service-with-spring-and-java-based-configuration)), to:
+  - Jego klasy nie będą się wliczały do całkowitej liczby klas
+  - Moduły symulacji nie mogą zależeć od klas interfejsu. Innymi słowy, żadna z klas symulacji nie może używać obiektów odpowiedzialnych za interfejs (w drugą stronę natomiast tak). 
+
+#### Ogólne
+- [Interfejs](https://docs.oracle.com/javase/tutorial/java/concepts/interface.html) niekoniecznie musi opisywać tylko jakąś jedną wykonywaną czynność. 
+Jest to kontrakt, często tworzony na potrzeby konkretnego modułu, lub nawet jednej klasy (np. w celu [odwrócenia zależności](https://bottega.com.pl/pdf/materialy/receptury/ioc.pdf)).
+Interfejs może przykładowo definiować źródło i ujście danych dla jakiegoś modułu (mówimy wtedy o repozytorium) i posiadać metody `read` i `save` - samego modułu
+ nie obchodzi to, czy odczytuje on dane z bazy relacyjnej, pliku czy z innego systemu poprzez `HTTP`. Dla danej klasy ważny jest sam kontrakt opisujący czynności niezbędne do jej poprawnego działania. 
+- Odpowiadają sobie na pytanie na to, jakie metody powinien zawierać interfejs (i czy powinien w ogóle istnieć), dobrze jest spojrzeć na niego z perspektywy klasy, która go używa.
+- Proszę unikać używania metod domyślnych w interfejsach.
+
 
 ### Przykłady
 - Symulacja życia kolonii różnego rodzaju organizmów. Każda z grup organizmów posiada odmienne właściwości i wzorce zachowań. Symulację rozpoczynamy od utworzenia losowej planszy z zasobami o zadanych wymiarach, następnie losowo rozmieszczamy na niej organizmy. Organizmy losowo poruszają się po planszy. Każde z pól może posiadać np. pożywienie. Organizmy różnego typu mogą umierać po jakiejś charakterystycznej liczbie bez pożywienia pól. Symulacja może kończyć się w momencie, gdy na planszy zostanie jeden (lub żaden) organizm.
@@ -154,12 +170,14 @@ Poza kamieniami milowymi spotykamy się w ramach konsultacji. Zachęcam do zjawi
 - Proszę czasami zaglądać na tą stronę, postaram się powrzucać trochę przykładów
  
 ### Programowanie
-- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - "must read" dla osób chcących pisać dobry kod. Nie wymagam przeczytania całej książki, proszę przynajmniej zapoznać się z podsumowaniami (poniżej).
+- [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - "must read" dla osób chcących pisać dobry kod. Nie wymagam przeczytania całej książki, proszę przynajmniej zapoznać się z podsumowaniami (poniżej)
 - [Podsumowanie Clean Code #1](https://gist.github.com/wojteklu/73c6914cc446146b8b533c0988cf8d29) 
 - [Podsumowanie Clean Code #2](http://www.inf.fu-berlin.de/inst/ag-se/teaching/K-CCD-2014/Clean-Code-summary.pdf)
 - [Dlaczego lepiej jest stosować kompozycję, niż dziedziczenie](https://www.youtube.com/watch?v=wfMtDGfHWpA)
+- [Wzorce projektowe w Javie](https://java-design-patterns.com/patterns/) - na start polecam kategorię ["Gang of Four"](https://en.wikipedia.org/wiki/Design_Patterns)
+- [Świetna prezentacja o modularności (dla zaawansowanych)](https://www.youtube.com/watch?v=ILBX9fa9aJo)
 
-### Zadanie dodatkowe
+## Zadanie dodatkowe
 Zachęcam do wykonania któregoś z podpunktów zadania dodatkowego - 
 można przesyłać je w formie Pull requesta do tego repo lub na mejla.
 
