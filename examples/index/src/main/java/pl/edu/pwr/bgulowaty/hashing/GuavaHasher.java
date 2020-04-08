@@ -3,6 +3,7 @@ package pl.edu.pwr.bgulowaty.hashing;
 import com.google.common.hash.HashCode;
 import com.google.common.hash.HashFunction;
 import java.nio.charset.Charset;
+import java.security.NoSuchAlgorithmException;
 import pl.edu.pwr.bgulowaty.StudentsIndex;
 
 @SuppressWarnings("UnstableApiUsage")
@@ -17,7 +18,7 @@ abstract class GuavaHasher implements IndexHasher {
   protected abstract HashFunction getHashFunction();
 
   @Override
-  public StudentsIndex hash(StudentsIndex studentsIndex) {
+  public StudentsIndex hash(StudentsIndex studentsIndex) throws NoSuchAlgorithmException {
     String index = studentsIndex.getIndex();
 
     HashCode hashCode = getHashFunction().hashString(index, charset);

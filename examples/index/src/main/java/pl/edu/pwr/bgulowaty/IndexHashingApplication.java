@@ -1,6 +1,7 @@
 package pl.edu.pwr.bgulowaty;
 
 import java.io.File;
+import java.security.NoSuchAlgorithmException;
 import java.util.Optional;
 import pl.edu.pwr.bgulowaty.args.AppArguments;
 import pl.edu.pwr.bgulowaty.args.ArgumentsParser;
@@ -23,8 +24,11 @@ public class IndexHashingApplication {
 
     HashingAlgorithm hashingAlgorithm = resolveAlgorithm(config, arguments);
     IndexHasher hasher = getHasher(hashersProvider, hashingAlgorithm);
-
-    hashAndPrintToSystemOut(arguments.getStudentsIndex(), hasher);
+    try {
+      hashAndPrintToSystemOut(arguments.getStudentsIndex(), hasher);
+    }catch(NoSuchAlgorithmException e){
+      System.out.println(e.toString());
+    }
   }
 
   private static IndexHasher getHasher(
@@ -48,7 +52,7 @@ public class IndexHashingApplication {
     return new HashingModule().hashersProvider();
   }
 
-  private static void hashAndPrintToSystemOut(StudentsIndex index, IndexHasher hasher) {
+  private static void hashAndPrintToSystemOut(StudentsIndex index, IndexHasher hasher) throws NoSuchAlgorithmException {
     System.out.println(hasher.hash(index).getIndex());
   }
 
