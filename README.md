@@ -1,6 +1,7 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **06.04.2020** | Dziękuję za przesłanie tematów, na wszystkie mejle postaram się odpowiedzieć do 09.04.2020 włącznie.
 - **25.03.2020** | Dodano dodatkowe materiały i sekcję [Uwagi](#uwagi).
 - **19.03.2020** | Dodano zadanie dodatkowe. 
 
