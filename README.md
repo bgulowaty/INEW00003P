@@ -1,6 +1,7 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **09.04.2020** | Dodano tematy, uzupełniono terminarz. Jeżeli jakaś grupa nie ma wpisanego tematu, to prawdopodobnie otrzymała ode mnie mejla.
 - **06.04.2020** | Dziękuję za przesłanie tematów, na wszystkie mejle postaram się odpowiedzieć do 09.04.2020 włącznie. 
 - **25.03.2020** | Dodano dodatkowe materiały i sekcję [Uwagi](#uwagi).
 - **19.03.2020** | Dodano zadanie dodatkowe. 
@@ -25,25 +26,25 @@ oraz skomentuję i pomogę rozwiązać ewentualne problemy, przy czym naturalnie
 Proszę sprawdzić i w razie błędu mnie poinformować.
 
 | hex(sha256(indeks))[:10] | temat symulacji | 
-|--------------------------|--------| 
-| 109aca0eb0, 10c0ab27de |                                       |
-| 6a56afc3b8, b503cd3e20 | szachy                                |
-| d6ee3d7bbb, 1bae221c16 |                                       |
-| b2f8d6c769, eeb47fdff5 | wirus                                 |
-| a89269eb1e, d3a3e6d07f |                                       |
-| 8830cbfb72, 94f8f513e4 |                                       |
-| fd462c3af6, 14d9355a25 |                                       |
-| 3ff598b1a9, eaef94617a |                                       |
-| 5368816403, f229286545 | symulacja ogrodu                      |
-| d3312c6248, 198bc46d31 |                                       |
-| 27b9f19ab7             |                                       |
-| f1cb147b76, 48745f1e83 | symulacja meczów futsal               |
-| 6a869198cb, 81737a5de6 |                                       |
-| 873008d26f, 6159e817e3 |                                       |
-| 293d1e9078, 10ac38a456 |                                       |
-| 04a12548e9             |                                       |
-| 4ec798a356, 1770065c18 |                                       |
-| 08a1f76d44, 6b82b008b6 |                                       |
+|------------------------|-------------------------------------|
+| 109aca0eb0, 10c0ab27de | roślinożercy i drapieżniki          |
+| 6a56afc3b8, b503cd3e20 | szachy                              |
+| d6ee3d7bbb, 1bae221c16 | tramwaje                            |
+| b2f8d6c769, eeb47fdff5 | wirus                               |
+| a89269eb1e, d3a3e6d07f | giełda, wioska                      |
+| 8830cbfb72, 94f8f513e4 | symulator studenta                  |
+| fd462c3af6, 14d9355a25 | apokalipsa                          |
+| 3ff598b1a9, eaef94617a |                                     |
+| 5368816403, f229286545 | symulacja ogrodu                    |
+| d3312c6248, 198bc46d31 |                                     |
+| 27b9f19ab7             | elektrownia                         |
+| f1cb147b76, 48745f1e83 | symulacja meczów futsal             |
+| 6a869198cb, 81737a5de6 | symulacja ludzkich zachowań         |
+| 873008d26f, 6159e817e3 | symulacja życia gwiazdy             |
+| 293d1e9078, 10ac38a456 | ewolucja                            |
+| 04a12548e9             | wspinaczka                          |
+| 4ec798a356, 1770065c18 |                                     |
+| 08a1f76d44, 6b82b008b6 | saper                               |
 | 9c4f2e2c0a, 803e59f253 | terrarium z różnymi typami zwierząt |
 
 Osoby bez grupy: 2fc52d3924
@@ -87,13 +88,13 @@ Interfejs może przykładowo definiować źródło i ujście danych dla jakiego�
 | | Data | Opis
 | ------------ | ------------ | -------------
 | :heavy_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
-| :white_check_mark: | (TBA) | Opcjonalne zadanie, które wrzucę tutaj (niedługo).
-| :white_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia). Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
-| :white_check_mark: | (TBA) | Szczegółowy opis systemu (8. zajęcia).
-| :white_check_mark: | (TBA) | Opis logiki symulacji (10. zajęcia).
-| :white_check_mark: | (TBA) | Implementacja (12. zajęcia).
-| :white_check_mark: | (TBA) | Prezentacja działającej symulacji (14. zajęcia).
-| :white_check_mark: | (TBA) | Oddanie projektu (15. zajęcia).
+| :heavy_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia). Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
+| :white_check_mark: | 16.04.2020 | Szczegółowy opis systemu (8. zajęcia).
+| :white_check_mark: | 20.04.2020 | Opcjonalne zadanie.
+| :white_check_mark: | 30.04.2020 | Opis logiki symulacji (10. zajęcia).
+| :white_check_mark: | 14.05.2020 | Implementacja (12. zajęcia).
+| :white_check_mark: | 28.05.2020 | Prezentacja działającej symulacji (14. zajęcia).
+| :white_check_mark: | 04.06.2020 | Oddanie projektu (15. zajęcia).
 
 
 > **UWAGA**:
