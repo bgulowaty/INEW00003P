@@ -1,6 +1,7 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **15.04.2020** | Ze względu na przerwę świąteczną i niejasności w kolejnym etapie, przesunąłem termin oddania o tydzień. 
 - **09.04.2020** | Dodano tematy, uzupełniono terminarz. Jeżeli jakaś grupa nie ma wpisanego tematu, to prawdopodobnie otrzymała ode mnie mejla.
 - **06.04.2020** | Dziękuję za przesłanie tematów, na wszystkie mejle postaram się odpowiedzieć do 09.04.2020 włącznie. 
 - **25.03.2020** | Dodano dodatkowe materiały i sekcję [Uwagi](#uwagi).
@@ -89,8 +90,8 @@ Interfejs może przykładowo definiować źródło i ujście danych dla jakiego�
 | ------------ | ------------ | -------------
 | :heavy_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
 | :heavy_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia). Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
-| :white_check_mark: | 16.04.2020 | Szczegółowy opis systemu (8. zajęcia).
 | :white_check_mark: | 20.04.2020 | Opcjonalne zadanie.
+| :white_check_mark: | 23.04.2020 | Szczegółowy opis systemu (8. zajęcia).
 | :white_check_mark: | 30.04.2020 | Opis logiki symulacji (10. zajęcia).
 | :white_check_mark: | 14.05.2020 | Implementacja (12. zajęcia).
 | :white_check_mark: | 28.05.2020 | Prezentacja działającej symulacji (14. zajęcia).
