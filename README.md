@@ -1,6 +1,9 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **16.04.2020** | Dodano [sekcję](#opis-poszczególnych-kamieni) opisującą [poszczególne kamienie milowe](https://www.overleaf.com/read/wzbrmyyvfdmc).
+Wydaje mi się, że dodany opis dezaktualizuje część pytań, w związku z czym pozwolę sobie nie odpowiadać na te związane z 
+kolejnym kamieniem milowym. Dodatkowo bardzo proszę od teraz w tytułach mejli do mnie używać prefiksu `[PO]` (termin grupy jest nieważny).  
 - **15.04.2020** | Ze względu na przerwę świąteczną i niejasności w kolejnym etapie, przesunąłem termin oddania o tydzień. 
 - **09.04.2020** | Dodano tematy, uzupełniono terminarz. Jeżeli jakaś grupa nie ma wpisanego tematu, to prawdopodobnie otrzymała ode mnie mejla.
 - **06.04.2020** | Dziękuję za przesłanie tematów, na wszystkie mejle postaram się odpowiedzieć do 09.04.2020 włącznie. 
@@ -32,23 +35,22 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 6a56afc3b8, b503cd3e20 | szachy                              |
 | d6ee3d7bbb, 1bae221c16 | tramwaje                            |
 | b2f8d6c769, eeb47fdff5 | wirus                               |
-| a89269eb1e, d3a3e6d07f | giełda, wioska                      |
+| a89269eb1e, d3a3e6d07f | wioska                              |
 | 8830cbfb72, 94f8f513e4 | symulator studenta                  |
 | fd462c3af6, 14d9355a25 | apokalipsa                          |
-| 3ff598b1a9, eaef94617a |                                     |
+| 3ff598b1a9, eaef94617a | przygoda fantasy                    |
 | 5368816403, f229286545 | symulacja ogrodu                    |
-| d3312c6248, 198bc46d31 |                                     |
+| d3312c6248, 198bc46d31 | symulacja życia roztoczy            |
 | 27b9f19ab7             | elektrownia                         |
 | f1cb147b76, 48745f1e83 | symulacja meczów futsal             |
 | 6a869198cb, 81737a5de6 | symulacja ludzkich zachowań         |
 | 873008d26f, 6159e817e3 | symulacja życia gwiazdy             |
 | 293d1e9078, 10ac38a456 | ewolucja                            |
 | 04a12548e9             | wspinaczka                          |
-| 4ec798a356, 1770065c18 |                                     |
-| 08a1f76d44, 6b82b008b6 | saper                               |
+| 1770065c18, 4ec798a356 | symulacja ruchu ulicznego           |
+| 6b82b008b6, 08a1f76d44 | saper                               |
 | 9c4f2e2c0a, 803e59f253 | terrarium z różnymi typami zwierząt |
-
-Osoby bez grupy: 2fc52d3924
+| 2fc52d3924             | gra platformowa                     |
 
 ## Cel projektu
 Stworzenie prostej symulacji agentowej z wykorzystaniem technik projektowania
@@ -89,7 +91,7 @@ Interfejs może przykładowo definiować źródło i ujście danych dla jakiego�
 | | Data | Opis
 | ------------ | ------------ | -------------
 | :heavy_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
-| :heavy_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia). Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
+| :heavy_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia).
 | :white_check_mark: | 20.04.2020 | Opcjonalne zadanie.
 | :white_check_mark: | 23.04.2020 | Szczegółowy opis systemu (8. zajęcia).
 | :white_check_mark: | 30.04.2020 | Opis logiki symulacji (10. zajęcia).
@@ -97,10 +99,49 @@ Interfejs może przykładowo definiować źródło i ujście danych dla jakiego�
 | :white_check_mark: | 28.05.2020 | Prezentacja działającej symulacji (14. zajęcia).
 | :white_check_mark: | 04.06.2020 | Oddanie projektu (15. zajęcia).
 
-
 > **UWAGA**:
 Poza kamieniami milowymi spotykamy się w ramach konsultacji. Zachęcam do zjawienia się lub wyslania mejla, jeśli jakieś rzeczy związane z programowaniem są niezrozumiałe. 
 
+### Opis poszczególnych kamieni
+
+1. Stworzenie grupy
+2. Wybór tematu
+    
+    Każda grupa przedstawia **dwie** różne propozycje zadań symulacyjnych. Do każdego z tematów należy przygotować opis zakresu projektu.
+
+3. Szczegółowy opis systemu
+
+    Należy przygotować wstępną dokumentację zawierającą:
+    - Analizę czasownikowo – rzeczownikową;
+    - Karty CRC
+    - Diagram(y) przypadków użycia
+    - Diagram(y) klas
+    - Diagramy obiektów
+
+4. Opis logiki symulacji
+
+    Należy przygotować diagramy opisujące interakcje pomiędzy obiektami (co najmniej jeden z poniższych):
+    - Diagramy sekwencji
+    - Diagramy aktywności
+    - Diagramy maszyny stanów
+    
+5. Implementacja
+
+    - Na tym etapie hierarchia klas powinna być już zaimplementowana
+    - Powinna być już możliwa kompilacja projektu za pomocą narzędzia automatycznego budowania
+    - Projekt nie musi jeszcze posiadać pełnej funkcjonalności
+
+6. Prezentacja działającej symulacji
+
+    - Kompilujący się kod projektu
+    - Działający program symulacyjny. Na tym etapie kod powinien posiadać całą zakładaną funkcjonalność.
+        - Należy zaprezentować prowadzącemu działanie programu
+        - Niezaprezentowanie działającego programu oznacza niezaliczenie etapu
+
+7. Oddanie finalnej wersji projektu
+    
+    - Kompletna dokumentacja
+      
 ## Minimalne wymagania
 - Minimum 5 klas (bez interfejsów i abstrakcyjnych)
 - Hermetyzacja metod i danynch
