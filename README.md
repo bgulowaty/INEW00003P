@@ -35,16 +35,16 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 
 | no. | hex(sha256(indeks))[:10] | temat symulacji                     | 1                  | 2                  | 3                | 4                | 5                     | 6                     | 7                     |
 |-----|--------------------------|-------------------------------------|--------------------|--------------------|------------------|------------------|-----------------------|-----------------------|-----------------------|
-| 1   | 109aca0eb0, 10c0ab27de   | roślinożercy i drapieżniki          | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 2   | 6a56afc3b8, b503cd3e20   | szachy                              | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 1   | 109aca0eb0, 10c0ab27de   | roślinożercy i drapieżniki          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 2   | 6a56afc3b8, b503cd3e20   | szachy                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 3   | d6ee3d7bbb, 1bae221c16   | tramwaje                            | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 4   | b2f8d6c769, eeb47fdff5   | wirus                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 7   | fd462c3af6, 14d9355a25   | apokalipsa                          | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 4   | b2f8d6c769, eeb47fdff5   | wirus                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: :heavy_exclamation_mark: |:heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 7   | fd462c3af6, 14d9355a25   | apokalipsa                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 8   | 3ff598b1a9, eaef94617a   | przygoda fantasy                    | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 9   | 5368816403, f229286545   | ogród                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 10  | d3312c6248, 198bc46d31   | życie roztoczy                      | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 9   | 5368816403, f229286545   | ogród                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 10  | d3312c6248, 198bc46d31   | życie roztoczy                      | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 11  | 27b9f19ab7               | elektrownia                         | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 12  | f1cb147b76, 48745f1e83   | futsal                              | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 13  | 6a869198cb, 81737a5de6   | ludzkie zachowania                  | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
@@ -59,8 +59,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 Legenda:
 - :heavy_check_mark: - etap zaliczony
 - :speech_balloon: - trwa sprawdzanie
-- :heavy_exclamation_mark: - opóźnienie w przesłaniu
-- :heavy_multiplication_x: - etap niezaliczony
+- :heavy_exclamation_mark: - opóźnienie w przesłaniu/uwagi (w mejlu)
 - :black_square_button: - etap przyszły
 
 ## Cel projektu
