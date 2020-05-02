@@ -1,6 +1,10 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **02.05.2020** | Dodano numery porządkowe dla grup oraz sekcję [wymagania odnośnie formy projektu](#odnośnie-formy-projektu). Przy okazji oddawania kolejnych kamieni 
+proszę się do nich zastosować. 
+Zmieniono sekcję Grupy na [Wyniki](#wyniki) - od teraz będę umieszczał tam informacje o zaliczeniach kolejnych etapów. 
+Uwagi cd. etapów będą przesłane mejlem. Z uwagi na przesunięcie terminu etapu 3, będzie on sprawdzony razem z 4.
 - **16.04.2020** | Dodano [sekcję](#opis-poszczególnych-kamieni) opisującą [poszczególne kamienie milowe](https://www.overleaf.com/read/wzbrmyyvfdmc).
 Wydaje mi się, że dodany opis dezaktualizuje część pytań, w związku z czym pozwolę sobie nie odpowiadać na te związane z 
 kolejnym kamieniem milowym. Dodatkowo bardzo proszę od teraz w tytułach mejli do mnie używać prefiksu `[PO]` (termin grupy jest nieważny).  
@@ -25,32 +29,39 @@ oraz skomentuję i pomogę rozwiązać ewentualne problemy, przy czym naturalnie
 - **01.03.2020** | Podstawowe informacje 
 
 
-## Grupy
 
+## Wyniki
 Proszę sprawdzić i w razie błędu mnie poinformować.
 
-| hex(sha256(indeks))[:10] | temat symulacji | 
-|------------------------|-------------------------------------|
-| 109aca0eb0, 10c0ab27de | roślinożercy i drapieżniki          |
-| 6a56afc3b8, b503cd3e20 | szachy                              |
-| d6ee3d7bbb, 1bae221c16 | tramwaje                            |
-| b2f8d6c769, eeb47fdff5 | wirus                               |
-| a89269eb1e, d3a3e6d07f | wioska                              |
-| 8830cbfb72, 94f8f513e4 | symulator studenta                  |
-| fd462c3af6, 14d9355a25 | apokalipsa                          |
-| 3ff598b1a9, eaef94617a | przygoda fantasy                    |
-| 5368816403, f229286545 | symulacja ogrodu                    |
-| d3312c6248, 198bc46d31 | symulacja życia roztoczy            |
-| 27b9f19ab7             | elektrownia                         |
-| f1cb147b76, 48745f1e83 | symulacja meczów futsal             |
-| 6a869198cb, 81737a5de6 | symulacja ludzkich zachowań         |
-| 873008d26f, 6159e817e3 | symulacja życia gwiazdy             |
-| 293d1e9078, 10ac38a456 | ewolucja                            |
-| 04a12548e9             | wspinaczka                          |
-| 1770065c18, 4ec798a356 | symulacja ruchu ulicznego           |
-| 6b82b008b6, 08a1f76d44 | saper                               |
-| 9c4f2e2c0a, 803e59f253 | terrarium z różnymi typami zwierząt |
-| 2fc52d3924             | gra platformowa                     |
+| no. | hex(sha256(indeks))[:10] | temat symulacji                     | 1                  | 2                  | 3                | 4                | 5                     | 6                     | 7                     |
+|-----|--------------------------|-------------------------------------|--------------------|--------------------|------------------|------------------|-----------------------|-----------------------|-----------------------|
+| 1   | 109aca0eb0, 10c0ab27de   | roślinożercy i drapieżniki          | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 2   | 6a56afc3b8, b503cd3e20   | szachy                              | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 3   | d6ee3d7bbb, 1bae221c16   | tramwaje                            | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 4   | b2f8d6c769, eeb47fdff5   | wirus                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 7   | fd462c3af6, 14d9355a25   | apokalipsa                          | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 8   | 3ff598b1a9, eaef94617a   | przygoda fantasy                    | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 9   | 5368816403, f229286545   | ogród                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 10  | d3312c6248, 198bc46d31   | życie roztoczy                      | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 11  | 27b9f19ab7               | elektrownia                         | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 12  | f1cb147b76, 48745f1e83   | futsal                              | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 13  | 6a869198cb, 81737a5de6   | ludzkie zachowania                  | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 14  | 873008d26f, 6159e817e3   | życie gwiazdy                       | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 15  | 293d1e9078, 10ac38a456   | ewolucja                            | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 16  | 04a12548e9               | wspinaczka                          | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+
+Legenda:
+- :heavy_check_mark: - etap zaliczony
+- :speech_balloon: - trwa sprawdzanie
+- :heavy_exclamation_mark: - opóźnienie w przesłaniu
+- :heavy_multiplication_x: - etap niezaliczony
+- :black_square_button: - etap przyszły
 
 ## Cel projektu
 Stworzenie prostej symulacji agentowej z wykorzystaniem technik projektowania
@@ -92,9 +103,9 @@ Interfejs może przykładowo definiować źródło i ujście danych dla jakiego�
 | ------------ | ------------ | -------------
 | :heavy_check_mark: | 05.03.2020 | Stworzenie grupy (2. zajęcia) - proszę wysłać mejlowo z wyszczególnionym Liderem.
 | :heavy_check_mark: | 02.04.2020 | Wybór tematu (6. zajęcia).
-| :white_check_mark: | 20.04.2020 | Opcjonalne zadanie.
-| :white_check_mark: | 23.04.2020 | Szczegółowy opis systemu (8. zajęcia).
-| :white_check_mark: | 30.04.2020 | Opis logiki symulacji (10. zajęcia).
+| :heavy_check_mark: | 20.04.2020 | Opcjonalne zadanie.
+| :heavy_check_mark: | 23.04.2020 | Szczegółowy opis systemu (8. zajęcia).
+| :heavy_check_mark: | 30.04.2020 | Opis logiki symulacji (10. zajęcia).
 | :white_check_mark: | 14.05.2020 | Implementacja (12. zajęcia).
 | :white_check_mark: | 28.05.2020 | Prezentacja działającej symulacji (14. zajęcia).
 | :white_check_mark: | 04.06.2020 | Oddanie projektu (15. zajęcia).
@@ -142,13 +153,24 @@ Poza kamieniami milowymi spotykamy się w ramach konsultacji. Zachęcam do zjawi
     
     - Kompletna dokumentacja
       
-## Minimalne wymagania
+## Wymagania
+
+### Odnośnie zawartości projektu
 - Minimum 5 klas (bez interfejsów i abstrakcyjnych)
 - Hermetyzacja metod i danynch
 - Kompozycja/agregacja
 - Polimorfizm
 
-
+### Odnośnie formy projektu
+- Dokumentacja powinna być dostarczona w formacie `pdf`. 
+Taki dokument powinien zawierać m.in. spis treści - kolejne elementy dokumentacji (diagramy przypadków użycia itp.) 
+powinny być zamieszczane w osobnych podrozdziałach
+- Dokumentacja powinna być iteracyjnie rozszerzana, tj. w kolejnych etapach wysyłamy ten sam dokument rozszerzony o kolejne elementy kamieni milowych
+- Gdy diagram nie mieści się na jednej stronie, proszę spróbować umieścić go w horyzontalnej orientacji lub podzielić na mniejsze
+- Rezultat kolejnych etapów dostarczać można na 2 sposoby:
+  - W każdym mejlu z okazji kamienia milowego wysyłać dokumentację/kod źródłowy w postaci plików `.pdf` i archiwum (format dowolny)
+  - W każdym mejlu z okazji kamienia milowego wysyłać link do repozytorium - wtedy oceniane będą najświeższe wersje umieszczone w repozytorium
+   
 ## Zawartość projektu
 - Program symulacyjny
   - Kod programu (Java, Kotlin, Groovy, JDK $\geq 8$)
