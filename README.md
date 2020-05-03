@@ -37,7 +37,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 |-----|--------------------------|-------------------------------------|--------------------|--------------------|------------------|------------------|-----------------------|-----------------------|-----------------------|
 | 1   | 109aca0eb0, 10c0ab27de   | roślinożercy i drapieżniki          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 2   | 6a56afc3b8, b503cd3e20   | szachy                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 3   | d6ee3d7bbb, 1bae221c16   | tramwaje                            | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 3   | d6ee3d7bbb, 1bae221c16   | tramwaje                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 4   | b2f8d6c769, eeb47fdff5   | wirus                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: |:heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
@@ -50,10 +50,10 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 13  | 6a869198cb, 81737a5de6   | ludzkie zachowania                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:|  :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 14  | 873008d26f, 6159e817e3   | życie gwiazdy                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 15  | 293d1e9078, 10ac38a456   | ewolucja                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 16  | 04a12548e9               | wspinaczka                          | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 16  | 04a12548e9               | wspinaczka                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
 
 Legenda:
