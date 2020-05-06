@@ -52,7 +52,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 15  | 293d1e9078, 10ac38a456   | ewolucja                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 16  | 04a12548e9               | wspinaczka                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
 
