@@ -42,7 +42,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: |:heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 7   | fd462c3af6, 14d9355a25   | apokalipsa                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 8   | 3ff598b1a9, eaef94617a   | przygoda fantasy                    | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 8   | 3ff598b1a9, eaef94617a   | przygoda fantasy                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 9   | 5368816403, f229286545   | ogród                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 10  | d3312c6248, 198bc46d31   | życie roztoczy                      | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 11  | 27b9f19ab7               | elektrownia                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
@@ -54,7 +54,7 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 | 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 | 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :speech_balloon: | :speech_balloon: | :black_square_button: | :black_square_button: | :black_square_button: |
+| 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
 
 Legenda:
 - :heavy_check_mark: - etap zaliczony
