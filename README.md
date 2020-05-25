@@ -1,6 +1,8 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **25.05.2020** | Dodano [`przykład symulacji`](examples/army) z poprawnie podzielonym, w miarę czystym kodem. Zachęcam do zapoznania się, niektóre idee najłatwiej jest przekazać poprzez właśnie pokazanie kodu. 
+Jutro postaram się wysłać mejla odnośnie formy kolejnego etapu.
 - **02.05.2020** | Dodano numery porządkowe dla grup oraz sekcję [wymagania odnośnie formy projektu](#odnośnie-formy-projektu). Przy okazji oddawania kolejnych kamieni 
 proszę się do nich zastosować. 
 Zmieniono sekcję Grupy na [Wyniki](#wyniki) - od teraz będę umieszczał tam informacje o zaliczeniach kolejnych etapów. 
