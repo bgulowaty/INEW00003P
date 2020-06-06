@@ -1,6 +1,7 @@
 # Programowanie Obiektowe (INEW00003P)
 
 ## Aktualności
+- **06.06.2020** | Aktualizacja tabelki z wynikami. Przypominam o konieczności wysłania całości projektu do 10.06.2020. Jeśli zarówno dokumentacja (koniecznie w postaci jednego `.pdf`) i kod są na repozytorium, to wystaczy wysłać w mejlu link. 
 - **25.05.2020** | Dodano [`przykład symulacji`](examples/army) z poprawnie podzielonym, w miarę czystym kodem. Zachęcam do zapoznania się, niektóre idee najłatwiej jest przekazać poprzez właśnie pokazanie kodu. 
 Jutro postaram się wysłać mejla odnośnie formy kolejnego etapu.
 - **02.05.2020** | Dodano numery porządkowe dla grup oraz sekcję [wymagania odnośnie formy projektu](#odnośnie-formy-projektu). Przy okazji oddawania kolejnych kamieni 
@@ -37,26 +38,26 @@ Proszę sprawdzić i w razie błędu mnie poinformować.
 
 | no. | hex(sha256(indeks))[:10] | temat symulacji                     | 1                  | 2                  | 3                | 4                | 5                     | 6                     | 7                     |
 |-----|--------------------------|-------------------------------------|--------------------|--------------------|------------------|------------------|-----------------------|-----------------------|-----------------------|
-| 1   | 109aca0eb0, 10c0ab27de   | roślinożercy i drapieżniki          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 2   | 6a56afc3b8, b503cd3e20   | szachy                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 3   | d6ee3d7bbb, 1bae221c16   | tramwaje                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 4   | b2f8d6c769, eeb47fdff5   | wirus                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: |:heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 7   | fd462c3af6, 14d9355a25   | apokalipsa                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 8   | 3ff598b1a9, eaef94617a   | przygoda fantasy                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 9   | 5368816403, f229286545   | ogród                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 10  | d3312c6248, 198bc46d31   | życie roztoczy                      | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 11  | 27b9f19ab7               | elektrownia                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 12  | f1cb147b76, 48745f1e83   | futsal                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 13  | 6a869198cb, 81737a5de6   | ludzkie zachowania                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:|  :heavy_exclamation_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
-| 14  | 873008d26f, 6159e817e3   | życie gwiazdy                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 15  | 293d1e9078, 10ac38a456   | ewolucja                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 16  | 04a12548e9               | wspinaczka                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | :black_square_button: | :black_square_button: |
-| 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: | :black_square_button: | :black_square_button: |
-| 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :black_square_button: | :black_square_button: |
+| 1   | 109aca0eb0, 10c0ab27de   | roślinożercy i drapieżniki          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 2   | 6a56afc3b8, b503cd3e20   | szachy                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 3   | d6ee3d7bbb, 1bae221c16   | tramwaje                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 4   | b2f8d6c769, eeb47fdff5   | wirus                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 5   | a89269eb1e, d3a3e6d07f   | wioska                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: |:heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 6   | 8830cbfb72, 94f8f513e4   | student                             | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 7   | fd462c3af6, 14d9355a25   | apokalipsa                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 8   | 3ff598b1a9, eaef94617a   | przygoda fantasy                    | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: |
+| 9   | 5368816403, f229286545   | ogród                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 10  | d3312c6248, 198bc46d31   | życie roztoczy                      | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 11  | 27b9f19ab7               | elektrownia                         | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 12  | f1cb147b76, 48745f1e83   | futsal                              | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 13  | 6a869198cb, 81737a5de6   | ludzkie zachowania                  | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:|  :heavy_exclamation_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
+| 14  | 873008d26f, 6159e817e3   | życie gwiazdy                       | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 15  | 293d1e9078, 10ac38a456   | ewolucja                            | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 16  | 04a12548e9               | wspinaczka                          | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :black_square_button: |
+| 17  | 1770065c18, 4ec798a356   | ruch uliczny                        | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark:| :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark:| :black_square_button: |
+| 18  | 6b82b008b6, 08a1f76d44   | saper                               | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :black_square_button: |
+| 19  | 9c4f2e2c0a, 803e59f253   | terrarium z różnymi typami zwierząt | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :heavy_exclamation_mark: | :black_square_button: |
+| 20  | 2fc52d3924               | gra platformowa                     | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: | :heavy_exclamation_mark: | :heavy_check_mark:  | :heavy_check_mark: | :black_square_button: |
 
 Legenda:
 - :heavy_check_mark: - etap zaliczony
@@ -107,9 +108,9 @@ Interfejs może przykładowo definiować źródło i ujście danych dla jakiego�
 | :heavy_check_mark: | 20.04.2020 | Opcjonalne zadanie.
 | :heavy_check_mark: | 23.04.2020 | Szczegółowy opis systemu (8. zajęcia).
 | :heavy_check_mark: | 30.04.2020 | Opis logiki symulacji (10. zajęcia).
-| :white_check_mark: | 14.05.2020 | Implementacja (12. zajęcia).
-| :white_check_mark: | 28.05.2020 | Prezentacja działającej symulacji (14. zajęcia).
-| :white_check_mark: | 04.06.2020 | Oddanie projektu (15. zajęcia).
+| :heavy_check_mark: | 14.05.2020 | Implementacja (12. zajęcia).
+| :heavy_check_mark: | 04.06.2020 | Prezentacja działającej symulacji (14. zajęcia).
+| :white_check_mark: | 10.06.2020 | Oddanie projektu (15. zajęcia).
 
 > **UWAGA**:
 Poza kamieniami milowymi spotykamy się w ramach konsultacji. Zachęcam do zjawienia się lub wyslania mejla, jeśli jakieś rzeczy związane z programowaniem są niezrozumiałe. 
