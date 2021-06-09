@@ -44,3 +44,22 @@ test {
 wrapper {
   gradleVersion = '5.2.1'
 }
+
+task copyTask(type: Copy) {
+  from 'conf/.'
+  into 'build/libs/conf'
+}
+
+task createUberJar(type: Jar) {
+  manifest {
+    attributes 'Main-Class': 'pl.edu.pwr.bgulowaty.IndexHashingApplication'
+  }
+
+  from sourceSets.main.output
+  dependsOn configurations.runtimeClasspath
+  from {
+    configurations.runtimeClasspath.findAll { it.name.endsWith('jar') }.collect { zipTree(it) }
+  }
+}
+
+createUberJar.dependsOn copyTask
